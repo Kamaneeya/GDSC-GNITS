@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .google-form{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- <iframe class="google-form"src="https://docs.google.com/forms/d/e/1FAIpQLSceA2A3Z5WYv4wVPu-EI6fUkADsU_1g3yTReEaTV60lQnNY5g/viewform?embedded=true" width="640" height="1098" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
+    <div id="ff-compose"></div>
+    <script async defer src="https://formfacade.com/include/101837488416782731247/form/1FAIpQLSceA2A3Z5WYv4wVPu-EI6fUkADsU_1g3yTReEaTV60lQnNY5g/classic.js?div=ff-compose"></script>
+</body>
+</html>
+
+
+
+/*.active
+{
+  background-color: black;
+  color:white;
+  width:25px;
+  height:4px;
+  border-radius: 20px;
+}*/
+
+
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    color:red;
+    text-decoration:none;
+    cursor: pointer;
+    transform: translateY(-0.6rem) !important;
+    transition: transform 150ms !important;    
+}
+a[disabled]:hover{
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+.headings
+{
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.joinButton
+{
+  background-color: #4285F4 !important;
+}
+
+ol{
+
+  list-style-type: square;
+}/*
+background: #ff9999;
+  padding: 20px;
+}
+ol li {
+  background: #ffe5e5;
+  padding: 5px;
+  margin-left: 35px;
+}*/
+
+section{
+  font-size:16px;
+  font-family: sans-serif;
+}
+
+.siteName{
+  font-size:20px !important;
+}
+
+.top{
+  background-image: url("images/homeImage.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+
+  width:100%;
+  height:90vh;
+
+}
+
+.personImg
+{
+  width:12em;
+  height:12em;
+}
+
+.social-icons 
+{
+  display:flex;
+  justify-content: center;
+}
+
+.page-footer
+{
+
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   margin-bottom:-20px;
+
+}
+
+/*.mission
+{
+  border: 2px solid black;
+  padding:10px;
+}*/
+/*.aboutUs
+{
+  
+  background: url(images/gnitsBuilding.jfif) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 800px;
+  height: 347px;
+}*/
+
+
+/*
+.Logo
+{
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  /*width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  /*position: fixed;
+  top: 0;
+  left: 0;
+}*/
+@media (min-width: 320px) and (max-width: 726px)
+{
+
+.header
+{
+  flex-direction: column;
+}
+.logoHeader
+{
+  margin-bottom:5em;
+  width:18em;
+  height:auto;
+}
+  .siteName
+  {
+      visibility: hidden;
+  }
+  .top{
+    width:18em;
+    height:auto;
+  }
+  .joinButton
+  {
+    justify-self: center;
+  }
+
+} 
