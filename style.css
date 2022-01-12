@@ -7,39 +7,35 @@
   border-radius: 20px;
 }*/
 
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+  transform: translateY(-0.6rem) !important;
+  transition: transform 150ms !important;
+}
+a[disabled]:hover {
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
 
-a{
-    text-decoration: none;
-    color:black;
-}
-a:hover{
-    color:red;
-    text-decoration:none;
-    cursor: pointer;
-    transform: translateY(-0.6rem) !important;
-    transition: transform 150ms !important;    
-}
-a[disabled]:hover{
-    cursor: not-allowed;
-    box-shadow: none;
-    transform: none;
-}
-
-.headings
-{
+.headings {
   text-align: center;
   margin-bottom: 1em;
 }
 
-.joinButton
-{
-  background-color: #4285F4 !important;
+.joinButton {
+  background-color: #4285f4 !important;
 }
 
-ol{
-
+ol {
   list-style-type: square;
-}/*
+} /*
 background: #ff9999;
   padding: 20px;
 }
@@ -49,45 +45,39 @@ ol li {
   margin-left: 35px;
 }*/
 
-section{
-  font-size:16px;
+section {
+  font-size: 16px;
   font-family: sans-serif;
 }
 
-.siteName{
-  font-size:20px !important;
+.siteName {
+  font-size: 20px !important;
 }
 
-.top{
+.top {
   background-image: url("images/homeImage.png");
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
 
-  width:100%;
-  height:90vh;
-
+  width: 100%;
+  height: 90vh;
 }
 
-.personImg
-{
-  width:12em;
-  height:12em;
+.personImg {
+  width: 12em;
+  height: 12em;
 }
 
-.social-icons 
-{
-  display:flex;
+.social-icons {
+  display: flex;
   justify-content: center;
 }
 
-.page-footer
-{
-
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   margin-bottom:-20px;
-
+.page-footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: -20px;
 }
 
 /*.mission
@@ -107,7 +97,6 @@ section{
   height: 347px;
 }*/
 
-
 /*
 .Logo
 {
@@ -115,38 +104,31 @@ section{
   min-width: 1024px;
 	
   /* Set up proportionate scaling */
-  /*width: 100%;
+/*width: 100%;
   height: auto;
 	
   /* Set up positioning */
-  /*position: fixed;
+/*position: fixed;
   top: 0;
   left: 0;
 }*/
-@media (min-width: 320px) and (max-width: 726px)
-{
-
-.header
-{
-  flex-direction: column;
-}
-.logoHeader
-{
-  margin-bottom:5em;
-  width:18em;
-  height:auto;
-}
-  .siteName
-  {
-      visibility: hidden;
+@media (min-width: 320px) and (max-width: 726px) {
+  .header {
+    flex-direction: column;
   }
-  .top{
-    width:18em;
-    height:auto;
+  .logoHeader {
+    margin-bottom: 5em;
+    width: 18em;
+    height: auto;
   }
-  .joinButton
-  {
+  .siteName {
+    visibility: hidden;
+  }
+  .top {
+    width: 18em;
+    height: auto;
+  }
+  .joinButton {
     justify-self: center;
   }
-
-} 
+}
